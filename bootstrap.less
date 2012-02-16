@@ -1,11 +1,8 @@
-/*
-  Bootstrap v1.1
-  Variables and mixins to bootstrap any new web development project.
-*/
+// Bootstrap v1.1
+// Variables and mixins to bootstrap any new web development project.
 
-
-/* Variables
--------------------------------------------------- */
+// Variables
+// --------------------------------------------------
 
 // Links
 @linkColor:         #8b59c2;
@@ -38,11 +35,11 @@
 @siteWidth:         (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
 
 
-/* Mixins
--------------------------------------------------- */
+// Mixins
+// --------------------------------------------------
 
 // Clearfix for clearing floats like a boss
-.clearfix {
+.clearfix() {
   zoom: 1;
 	&:after {
     display: block;
@@ -54,7 +51,7 @@
 }
 
 // Center-align a block level element
-.center-block { 
+.center-block() { 
 	display: block;
   margin: 0 auto;
 }
@@ -106,7 +103,7 @@
 }
 
 // Grid System
-.container {
+.container() {
   width: @siteWidth;
   margin: 0 auto;
   .clearfix();
@@ -240,7 +237,7 @@
 }
 
 // CSS3 Flexible Box Module
-#flexbox {
+#flexbox() {
   // #flexbox > .display-box; must be used along with other flexbox mixins
   .display-box { 
     display: -moz-box;
@@ -293,7 +290,7 @@
 
 // Based on Eric Meyers' reset 2.0 - http://meyerweb.com/eric/tools/css/reset/index.html 
 // & the Compass Reset utility - http://compass-style.org/reference/compass/reset/utilities/
-#reset {
+#reset() {
   .global-reset {
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
