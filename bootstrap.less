@@ -129,6 +129,13 @@
   border-radius: @radius;
 }
 
+// Box Sizing
+.box-sizing(@sizing: border-box) {
+  -moz-box-sizing: @sizing;
+  -webkit-box-sizing: @sizing;
+  box-sizing: @sizing; 
+}
+
 // Drop shadows
 .box-shadow(@shadow: 0 1px 3px rgba(0,0,0,.25)) {
   -webkit-box-shadow: @shadow;
