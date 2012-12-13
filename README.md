@@ -40,11 +40,11 @@ User Select:
     /* LESS */
     
     h1 {
-      .box-sizing;
+      .user-select;
     }
     
     h2 {
-      .box-sizing(text);
+      .user-select(text);
     }
     
     /* Compiled CSS */
